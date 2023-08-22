@@ -1,0 +1,81 @@
+
+
+/* Estilos gerais */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #b2e1e2;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos do cabeçalho */
+header {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-family: 'Helvetica', sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+/* Estilos da navegação */
+nav {
+    background-color: #73d1d1;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* Estilos do conteúdo */
+main {
+    padding: 20px;
+}
+
+h2 {
+    font-weight: bold;
+    font-style: italic;
+}
+
+p {
+    font-style: italic;
+    line-height: 1.5;
+}
+
+/* Estilos do rodapé */
+footer {
+    background-color: #eee;
+    text-align: center;
+    padding: 10px;
+    font-style: italic;
+}
+
+/* Estilos para dispositivos móveis */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav li {
+        margin: 5px 0;
+    }
+}
